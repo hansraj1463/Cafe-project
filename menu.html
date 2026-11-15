@@ -1,32 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <title>Document</title>
+  <title>Menu||Brew & Bean Cafe</title>
 </head>
+
 <body>
-   <header class=" bg-[#4A3327] p-4 mx-auto flex justify-between sticky">
-        <div class="w-full mx-auto font-bold text-white text-3xl">
-            ☕ Brew
-            <span class="text-[#c98a4b]">&</span>
-            Bean
-        </div>
+  <header class="w-full bg-[#4A3327] p-4 mx-auto flex justify-between fixed">
+    <div class="w-full mx-auto font-bold text-white text-3xl">
+      ☕ Brew
+      <span class="text-[#c98a4b]">&</span>
+      Bean
+    </div>
 
-        <div class="hidden md:block">
-            <ul class="font-bold text-white flex gap-10 ">
-                <li class="hover:text-[#c98a4b]"><a href="index.html">Home</a></li>
-                <li class="hover:text-[#c98a4b]"><a href="menu.html">Menu</a></li>
-                <li class="hover:text-[#c98a4b]"><a href="About.html">About</a></li>
-                <li class="hover:text-[#c98a4b]"><a href="Hours.html">Hours</a></li>
-                <li class="hover:text-[#c98a4b]"><a href="Contact.html">Contact</a></li>
+    <div class="hidden md:block">
+      <ul class="font-bold text-white flex gap-10 ">
+        <li class="hover:text-[#c98a4b]"><a href="index.html">Home</a></li>
+        <li class="hover:text-[#c98a4b]"><a href="menu.html">Menu</a></li>
+        <li class="hover:text-[#c98a4b]"><a href="About.html">About</a></li>
+        <li class="hover:text-[#c98a4b]"><a href="Hours.html">Hours</a></li>
+        <li class="hover:text-[#c98a4b]"><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+  </header>
+
+  <main class="w-full mx-auto bg-[#6f4e37]  px-4 py-28 text-center">
+    <h1 class="font-bold text-white text-6xl mt-10">Our Menu</h1>
+    <p class="font-bold text-white text-xl mt-2">Coffee, tea and fresh bakes, made every morning.
+      in.</p>
+  </main>
+
+  <section class="w-full mx-auto bg-[#2e2019] p-12">
+    <div class="w-full  mx-auto  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">☕</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Espresso</h2>
+        <p class="text-white ">Rich double shot</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$3.00</button>
+      </div>
+
+      <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🥛</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Cappuccino</h2>
+        <p class="text-white ">Espresso + steamed milk foam</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$4.00</button>
+      </div>
 
 
-            </ul>
-        </div>
+      <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🧊</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Iced Latte</h2>
+        <p class="text-white ">Smooth & chilled</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$4.50</button>
+      </div>
 
-    </header>
+
+      <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🥐</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Croissant</h2>
+        <p class="text-white ">Buttery & flaky</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$3.50</button>
+      </div>
+
+
+      <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center mt-4">
+        <h1 class="text-5xl py-8 pb-0">🍰</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Cheesecake</h2>
+        <p class="text-white ">Slice of the day</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$5.00</button>
+      </div>
+
+
+      <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🍵</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Herbal Tea</h2>
+        <p class="text-white ">Caffeine-free blend</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$3.00</button>
+      </div>
+
+       <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">☕</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Americano</h2>
+        <p class="text-white ">Bold & smooth</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$3.25</button>
+      </div>
+
+       <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🥛</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Flat White</h2>
+        <p class="text-white ">Velvety microfoam</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$4.25</button>
+      </div>
+
+
+       <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🍫
+</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Mocha</h2>
+        <p class="text-white ">Espresso with rich chocolate</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$4.75</button>
+      </div>
+
+
+       <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🍮</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Caramel Macchiato</h2>
+        <p class="text-white ">Vanilla, milk & caramel drizzle</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$5.00</button>
+      </div>
+
+
+       <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🧊</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Cold Brew</h2>
+        <p class="text-white ">Steeped for 18 hours</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$4.50</button>
+      </div>
+
+
+       <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🫖</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Masala Chai</h2>
+        <p class="text-white ">Freshly spiced Indian tea</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$2.50</button>
+      </div>
+
+
+       <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🍃</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Green Tea</h2>
+        <p class="text-white ">Light & refreshing</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$2.75</button>
+      </div>
+
+
+       <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🧁</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Blueberry Muffin</h2>
+        <p class="text-white ">Baked fresh daily</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$3.25</button>
+      </div>
+
+       <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🍪</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Chocolate Brownie</h2>
+        <p class="text-white ">Fudgy & rich</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$3.75</button>
+      </div>
+
+
+       <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🥪</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Grilled Sandwich</h2>
+        <p class="text-white ">Veggie cheese melt</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$5.50</button>
+      </div>
+
+       <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🌀</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Cinnamon Roll</h2>
+        <p class="text-white ">Warm with sweet icing</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$3.75</button>
+      </div>
+
+
+       <div
+        class="max-w-[380px] h-[250px] shadow-xl/30 rounded-lg border-b-5 border-l-5 border-[#c98a4b] bg-[#4a3327] text-center  mt-4 ">
+        <h1 class="text-5xl py-8 pb-0">🍫</h1>
+        <h2 class="font-bold text-xl text-white py-2 ">Hot Chocolate</h2>
+        <p class="text-white ">Creamy & indulgent</p>
+        <button
+          class="border border-[#2e2019] bg-[#2e2019] text-[#c98a4b] rounded-full  font-bold p-2 my-4">$4.00</button>
+      </div>
+    </div>
+  </section>
+
+    <footer class="w-full mx-auto bg-[#4a3327] p-12 text-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
+        <ul>
+            <li class="text-2xl font-bold">☕ Brew <span class="text-[#c98a4b] ">&</span> Bean</li>
+            <li>Handcrafted coffee, fresh pastries and a <br> cozy corner to slow down in.</li>
+        </ul>
+
+        <ul>
+            <li class="font-bold text-[#c98a4b]" >Pages</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Hours.html">Hours</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+</ul>
+
+<ul>
+    <li class="font-bold text-[#c98a4b]">Hours</li>
+    <li>Mon–Fri: 7:00 AM – 7:00 PM</li>
+    <li>Saturday: 8:00 AM – 8:00 PM</li>
+    <li>Sunday: 8:00 AM – 5:00 PM</li>
+</ul>
+
+<ul>
+    <li class="font-bold text-[#c98a4b]">Visit Us</li>
+    <li>Heera Path,Mansrovar</li>
+    <li>Jaipur,Rajasthan</li>
+    <li>+91 9876543210</li>
+    <li>Vikashkumawat189@gmail.com</li>
+</ul>
+
+
+</footer>
+<footer class="w-full mx-auto text-center text-white p-2 bg-black">
+    <p>© 2026 Brew & Bean Cafe. All rights reserved.</p> 
+
+</footer>
 </body>
+
 </html>
